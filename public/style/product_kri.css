@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.product {
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.product1_info {
+    border: 1px solid red;
+    display: flex;
+    height: auto;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.product1_content {
+    /* border: 1px solid black; */
+    height: auto;
+    margin-left: 20%;
+    /* padding: 10%; */
+}
+
+.head1 {
+    /* margin-left: 15%; */
+    text-align: center;
+}
+
+.head1 a {
+    color: red;
+}
+
+.button {
+    /* border: 2px solid red; */
+    height: auto;
+}
+
+.interest_button {
+    margin-left: 20%;
+    font-size: 140%;
+    width: 50%;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #28E7AE;
+}
+
+.image {
+    margin-left: 3%;
+    margin-top: 3%;
+    /* border: 2px solid red; */
+    /* width: 20px; */
+}
+
+@media screen and (max-width: 1240px) and (min-width: 990px) {
+    .product1_info {
+        /* border: 1px solid red; */
+    }
+    .image {
+        margin-left: 2%;
+        margin-right: 0%;
+        /* border: 3px solid blueviolet; */
+    }
+    .product1_content {
+        /* border: 2px solid blue; */
+        margin-left: 15%;
+        /* margin-right: 20%; */
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .product1_info {
+        /* border: 1px solid red; */
+    }
+    .image img {
+        width: 450px;
+        height: 350px;
+    }
+    .image {
+        margin-left: 0%;
+    }
+    .product1_content {
+        /* border: 2px solid blue; */
+        margin-left: 10%;
+    }
+    h3 {
+        font-size: 140%;
+    }
+    h4 {
+        font-size: 140%;
+    }
+    .interest_button {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .product1_info {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .image img {
+        margin-left: 0%;
+        width: 500px;
+        /* padding-left: 20%; */
+    }
+    .image {
+        /* margin-left: 20%; */
+        margin-right: 0%;
+        /* border: 3px solid blueviolet; */
+    }
+    .product1_content {
+        /* text-align: left; */
+        /* border: 2px solid blue; */
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 100%;
+        /* margin-right: 20%; */
+    }
+    .interest_button {
+        width: 50%;
+        margin-left: 20%;
+    }
+    .head1 {
+        text-align: left;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .product1_info {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .image img {
+        margin-left: 0%;
+        width: 430px;
+        height: 360px;
+        /* padding-left: 20%; */
+    }
+    .image {
+        /* margin-left: 20%; */
+        margin-right: 0%;
+        /* border: 3px solid blueviolet; */
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .product1_info {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .image img {
+        margin-left: 0%;
+        width: 350px;
+        height: 280px;
+        /* padding-left: 20%; */
+    }
+    .image {
+        /* margin-left: 20%; */
+        margin-right: 0%;
+        /* border: 3px solid blueviolet; */
+    }
+    .interest_button {
+        width: 70%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .product1_info {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .image img {
+        margin-left: 0%;
+        width: 300px;
+        height: 230px;
+    }
+    .image {
+        margin-right: 0%;
+        /* border: 3px solid blueviolet; */
+    }
+    .interest_button {
+        width: 70%;
+        margin-left: 10%;
+    }
+    h3 {
+        font-size: 110%;
+    }
+    h4 {
+        font-size: 110%;
+    }
+}
