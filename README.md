@@ -30,7 +30,7 @@
 ## What is LK Enterprises? 🤔
 
 #### This is an ecommerce website created by me and my 2 team mates for the company LK Enterprises of New Delhi. 
-#### The front end is made with HTML5, CSS3 and Javascript, while the back end is made with Nodejs and Expressjs.
+#### The front end is made with HTML5, CSS3, Bootstrap4 and Javascript, while the back end is made with Nodejs and Expressjs.
 #### We used Nodemailer package of Nodejs for successfully sending customer query request through contact form.
 #### For making successful payments we have used Stripe API on the product page while for tracking company location we have used Google Map's API in the footer section.
 
