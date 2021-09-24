@@ -1,4 +1,4 @@
-# [Peercoder](https://lk-enterprises-delhi.herokuapp.com/) ⭐
+# [LK-Enterprises](https://lk-enterprises-delhi.herokuapp.com/) ⭐
 
 ![JavaScript](https://img.shields.io/badge/Powered%20By-JavaScript-F7DF1E?style=for-the-badge&logo=&logoColor)&nbsp;
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=&logoColor=white)&nbsp;
@@ -10,7 +10,7 @@
 
 
 [![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://lk-enterprises-delhi.herokuapp.com/)
-[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/ROHAN842/peercoder)
+[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/ROHAN842/lkenterprises)
 
 ## Overview 👀
 <img src="images/LKindex.jpg">
@@ -25,26 +25,31 @@
 - From Product page user can buy 🛍️ products of the company, which are mentioned in website
 - Clean UI ⚡
 - Company's Location 📍 can be easily seen 👀 by user beacause of Map 🗺️ section present in footer of every page of website
-- User can easily contact ☎️ the authorities0, regarding any query of the product from Contact Form of the website
+- User can easily contact ☎️ the authorities, regarding any query of the product from Contact 📝 Form of the website
 
-## What is Peer Coder? 🤔
+## What is LK Enterprises? 🤔
 
-#### Remote pair programming is something developers have grappled with since well before the pandemic began. 
-#### Peercoder is basically a platform where two peers can do their interview preparation by practicing DSA problems and improve their problem solving skills.
-#### Peer Coder is ideal for Online Interviewing of Developers as well as Learning to code from Friends.
+#### This is an ecommerce website created by me and my 2 team mates for the company LK Enterprises of New Delhi. 
+#### The front end is made with HTML5, CSS3 and Javascript, while the back end is made with Nodejs and Expressjs.
+#### We used Nodemailer package of Nodejs for successfully sending customer query request through contact form.
+#### For making successful payments we have used Stripe API on the product page while for tracking company location we have used Google Map's API in the footer section.
+
 
 
 ## How it works? 🤔
 - **Open the website [https://lk-enterprises-delhi.herokuapp.com/](https://lk-enterprises-delhi.herokuapp.com/)**
-- **Peer just needs to send same Room Name/id to another peer in order to join a room where apart from practicing problems they can share location, also they can communicate by doing normal chat as well as video chat with each other.**
-- **For Video Chat, peer just need to copy a unique id and send it to peer with whom he/she want to chat.**
+- **User can easily view products displayed in form of Grid on the Home page of the website.**
+- **If user wants to know more about company then he can just click on Read more button present on Home page of the website.**
+- **User can easily buy 🛍️ products of the company, from product page of website, also payments can be easily done through Stripe API.**
+- **If user has any query then user can easily contact ☎️ the authorities, from Contact 📝 Form of the website.**
+- **If user wants to make a visit 🌇 at company, then he can easily make it by following company's location 📍 through Map 🗺️ presesnt in footer section of every page of website.**
+
 
 ## Dependencies 🗃
 
-- [React.js](https://reactjs.org/) - **Frontend Framework**
+- [Bootstrap](https://getbootstrap.com/) - **Frontend CSS3 Framework**
 - [Node.js](https://nodejs.org/en/) - **Backend Framework**
 - [Express.js](https://expressjs.com/) - **Server Side Node.js Framework**
-- [Socket.io](https://socket.io/) - **Client-Server Communication**
 
 ## Run Locally 💻
 
@@ -53,15 +58,12 @@
     >> For Windows: Git Bash
     >> For Linux: Terminal
     >> git clone https://github.com/ROHAN842/peercoder.git
-    >> cd Peercoder
+    >> cd lkenterprises
 > Install all dependencies
     >> npm i
-> Spin the server on port 5000
-    >> cd src
+> Spin the server on port 3000
+    >> cd lkenterprises
     >> nodemon or node index.js
-> Spin the react on port 3000
-    >> cd client
-    >> npm start
 > Visit the website on http://localhost:3000/
     
 ```
