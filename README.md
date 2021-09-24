@@ -63,7 +63,7 @@
     >> npm i
 > Spin the server on port 3000
     >> cd lkenterprises
-    >> nodemon or node index.js
+    >> nodemon or node app.js
 > Visit the website on http://localhost:3000/
     
 ```
