@@ -42,7 +42,7 @@
 - **If user wants to know more about company then he can just click on Read more button present on Home page of the website.**
 - **User can easily buy 🛍️ products of the company, from product page of website, also payments can be easily done through Stripe API.**
 - **If user has any query then user can easily contact ☎️ the authorities, from Contact 📝 Form of the website.**
-- **If user wants to make a visit 🌇 at company, then he can easily make it by following company's location 📍 through Map 🗺️ presesnt in footer section of every page of website.**
+- **If user wants to make a visit 🌇 at company, then he can easily make it by following company's location 📍 through Map 🗺️ present in footer section of every page of website.**
 
 
 ## Dependencies 🗃
