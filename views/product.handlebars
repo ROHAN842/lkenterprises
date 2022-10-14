@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/style/product_kri.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" -->
+    <link rel="stylesheet" type="text/css" href="/style/index_style.css">
+    <link rel="stylesheet" type="text/css" href="/style/login.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.2/animation_utility.css"> -->
+    <link rel="icon" type="image/png" href="/img/favicon5.png">
+
+</head>
+<body>
+    {{!-- <div class="center">
+        <!-- <input type="checkbox" id="show"> -->
+        <!-- <label for="show" class="show-btn">View Form</label> -->
+        <div class="container">
+            <a href="product_kri.html" id="close"><label class="close-btn fas fa-times" title="close">Close</label></a>
+            <div class="text">
+                Login Form</div>
+            <form action="validation.php" method="post">
+                <div class="data">
+                    <label>Email or Phone</label>
+                    <input type="text" name="user" required>
+                </div>
+                <div class="data">
+                    <label>Password</label>
+                    <input type="password" name="password" required>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a></div>
+                <div class="btn">
+                    <div class="inner">
+                    </div>
+                    <button type="submit">login</button>
+                </div>
+                <div class="signup-link">
+                    Not a member? <a href="Sign_up_product.html" id="signup">Signup now</a></div>
+            </form>
+        </div>
+    </div> --}}
+
+
+
+    <!-- Heading -->
+    <h2 class="heading">Products That We Are Serving You</h2>
+
+    <!-- Product -->
+    <div class="product">
+        <div class="product1_info" id="product1">
+            <div class="image"><img src="/img/product1.jpeg" width="450px" height="300px"></div>
+            <div class="product1_content">
+                <h3 class="head1"><a href="#">Ceramic Bead Rack</a></h3>
+                <br>
+                <h3>Price: ₹1500/Piece</h3>
+                <br>
+                <h3>Minimum Order Quantity: 1 Piece</h3>
+                <br>
+                <h3>Feature:</h3>
+                <h4>Used for producing visually attractive surfaces</h4>
+                <br>
+                {{!-- <div class="button"><button class="interest_button">Yes I'm Interested</button></div> --}}
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KTIwPAnjsJh31v" async> </script> </form>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="product1_info" id="product2">
+            <div class="image"><img src="/img/product2.jpeg" width="450px" height="300px"></div>
+            <div class="product1_content">
+                <h3 class="head1"><a href="#">Aluminium Inverter Heat Sink</a></h3>
+                <br>
+                <h3>Price: ₹200/Piece</h3>
+                <br>
+                <h3>Minimum Order Quantity: 1 Piece</h3>
+                <br>
+                <h3>Feature:</h3>
+                <h4>Used to absorb and dissipate high heat</h4>
+                <br>
+                {{!-- <div class="button"><button class="interest_button">Yes I'm Interested</button></div> --}}
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KTJ9hnrxh5W7xc" async> </script> </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="product1_info" id="product3">
+            <div class="image"><img src="/img/product3.jpeg" width="450px" height="300px"></div>
+            <div class="product1_content">
+                <h3 class="head1"><a href="#">Aluminium Heat Sink Extrusion</a></h3>
+                <br>
+                <h3>Price: ₹300/Piece</h3>
+                <br>
+                <h3>Minimum Order Quantity: 1 Piece</h3>
+                <br>
+                <h3>Feature:</h3>
+                <h4>Used to increase surface area for heat transfer</h4>
+                <br>
+                {{!-- <div class="button"><button class="interest_button">Yes I'm Interested</button></div> --}}
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KTJGNK4179NgIS" async> </script> </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="product1_info" id="product4">
+            <div class="image"><img src="/img/product4.jpeg" width="450px" height="300px"></div>
+            <div class="product1_content">
+                <h3 class="head1"><a href="#">Aluminium Heat Sink Cooler</a></h3>
+                <br>
+                <h3>Price: ₹150/Piece</h3>
+                <br>
+                <h3>Minimum Order Quantity: 1 Piece</h3>
+                <br>
+                <h3>Feature:</h3>
+                <h4>Used to create cooling system for devices</h4>
+                <br>
+                {{!-- <div class="button"><button class="interest_button">Yes I'm Interested</button></div> --}}
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KTJKwYHyQZA9dS" async> </script> </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product1_info" id="product5">
+            <div class="image"><img src="/img/product5.jpeg" width="450px" height="300px"></div>
+            <div class="product1_content">
+                <h3 class="head1"><a href="#">SMC Busbar Support</a></h3>
+                <br>
+                <h3>Price: ₹350/Piece</h3>
+                <br>
+                <h3>Minimum Order Quantity: 1 Piece</h3>
+                <br>
+                <h3>Feature:</h3>
+                <h4>Used as support in bus ducts & control panels</h4>
+                <br>
+                {{!-- <div class="button"><button class="interest_button">Yes I'm Interested</button></div> --}}
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KTJSFdrPjBqe4C" async> </script> </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section -->
+
+
+    <section class="footer">
+        <div class="footer-bigbox">
+            <div class="uppercontent">
+                <div class="address">
+                    <p>
+                        <strong>Address</strong>
+                        <br>
+                            <br>26P/56-A Kamal Park, Palam,
+                            <br>New Delhi, PIN - 110045
+                        <br>
+                        <br>
+                        <br><strong>Contacts</strong>
+                        <br>
+                        <br>Email:Lk_Entreprises@proton.me
+                        <br>Phone: 011 6460 2603
+                        <br>Fax: +1 (1) 123 456 789
+                    </p>
+                </div>
+                <div class="links">
+                    <p>
+                        <strong>Links</strong>
+                        <br>
+                        <br><a class="text-white" href="/">Home</a>
+                        <br><a class="text-white" href="/contact">Contact-Us</a>
+                        <br><a class="text-white" href="/read">Read-more</a>
+                        <br>
+                        <br><strong>Feedback</strong>
+                        <br>
+                        <br>Please send us your ideas, bug reports, suggestions! Any feedback would be appreciated.
+                    </p>
+                </div>
+                <div class="map">
+                        <div class="google-map"><iframe frameborder="0" height="420px" width="100%" style="border:0" src="https://maps.google.com/maps? v1/place?key=AIzaSyA6UHhIx9HnAErWukjN18_v1AHzZQVPu_s&q=LK Enterprises,Palam, New Delhi,India&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen=""></iframe></div>
+                    </div>
+            </div>
+            <div class="sicons">
+                <div class="social-footer-icons">
+                        <a target="_blank" href="https://m.facebook.com/106423911117311/photos/a.107219924371043/107229954370040/?type=3&paipv=0&eav=Afa7TtdEQUgaoU01gqv6m4M2gtkVdZ7U-QNj4HzahdVuS3lBL1aUv6F8jEzT8-4Q-Zw&_rdr"><i class="fa  fa-3x fa-facebook" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/l.kenterprises/"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.pinterest.com/lkenterprises103020/"><i class="fa fa-3x fa-pinterest-p" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://mobile.twitter.com/lkpackaging"><i class="fa fa-3x fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+            </div>
+            <div class="footerlower">
+                <div class="horizontal-line">
+                    <hr>
+                </div>
+                <div class="Copyright">
+                    <p>
+                        © Copyright Permission LK_Enterprises
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var position = $(document).scrollTop();
+                console.log(position);
+
+                if ((position > 100) && (position < 200)) {
+                    // $('#product1').addClass('scrollanimation animated fadeInUp')
+                }
+                if ((position > 300) && (position < 700)) {
+                    $('#product2').addClass('scrollanimation animated fadeInUp')
+                }
+                if ((position > 600) && (position < 1000)) {
+                    $('#product3').addClass('scrollanimation animated fadeInUp')
+                }
+                if ((position > 900) && (position < 1800)) {
+                    $('#product4').addClass('scrollanimation animated fadeInUp')
+                }
+                if ((position > 950) && (position < 3300)) {
+                    $('#product5').addClass('scrollanimation animated fadeInUp')
+                }
+            })
+        })
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById("close").addEventListener("click", function() {
+            document.querySelector(".container").style.display = "none";
+            // document.querySelector("body,.navbar").style.background="rgba(0,0,0,0.6)";
+        })
+    </script>
+    <script type="text/javascript">
+        document.getElementById("button").addEventListener("click", function() {
+            document.querySelector(".container").style.display = "block";
+            document.querySelector("body").style.background = "rgba(0,0,0,0.6)";
+            document.querySelector("#carouselExampleInterval").style.background = "rgba(0,0,0,0.6)";
+        })
+    </script>
+</body>
+</html>
