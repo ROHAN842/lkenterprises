@@ -1,4 +1,4 @@
-# [LK-Enterprises](https://lk-enterprises-delhi.herokuapp.com/) ⭐
+# [LK-Enterprises](https://lk-enterprises-delhi.cyclic.app/) ⭐
 
 ![JavaScript](https://img.shields.io/badge/Powered%20By-JavaScript-F7DF1E?style=for-the-badge&logo=&logoColor)&nbsp;
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=&logoColor=white)&nbsp;
@@ -9,7 +9,7 @@
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)&nbsp;
 
 
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://lk-enterprises-delhi.herokuapp.com/)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://lk-enterprises-delhi.cyclic.app/)
 [![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/ROHAN842/lkenterprises)
 
 ## Overview 👀
@@ -37,7 +37,7 @@
 
 
 ## How it works? 🤔
-- **Open the website [https://lk-enterprises-delhi.herokuapp.com/](https://lk-enterprises-delhi.herokuapp.com/)**
+- **Open the website [https://lk-enterprises-delhi.cyclic.app/](https://lk-enterprises-delhi.cyclic.app/)**
 - **User can easily view products displayed in form of Grid on the Home page of the website.**
 - **If user wants to know more about company then he can just click on Read more button present on Home page of the website.**
 - **User can easily buy 🛍️ products of the company, from product page of website, also payments can be easily done through Stripe API.**
